@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Octopus</title>
+<style>
+body {
+    background-color: #EB33FF;
+     }
+</style>
+    </head>
+        <body>
+            <script>
+                function secondImg(x) 
+                    {
+                var image = document.getElementById('octopus');
+                x.style.height = "350px";
+                x.style.width = "700px";
+                image.src = "http://cdn2.thr.com/sites/default/files/imagecache/scale_crop_768_433/2016/04/finding-dory-2014-05-29_hank_design_spilcher.jpg";
+                    }
+                function normalImg(x) 
+                    {
+                var image = document.getElementById('octopus');
+                x.style.height = "350px";
+                x.style.width = "700px";
+                image.src = "http://4.bp.blogspot.com/--rIlMGafdgk/VpLSw9a4-OI/AAAAAAAAAbA/PCrkdiMJhvc/s1600/octopus%2B2.jpg";
+                    }
+            </script>
+            <h1>Barry Crawford</h1>
+                <img onmouseover="secondImg(this)"
+                     onmouseout="normalImg(this)"
+                     border="0"
+                     src="http://4.bp.blogspot.com/--rIlMGafdgk/VpLSw9a4-OI/AAAAAAAAAbA/PCrkdiMJhvc/s1600/octopus%2B2.jpg" onClick="this.src='http://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/octopus-photos-rambo.ngsversion.1436387382745.adapt.1900.1.jpg'" 
+                alt="Purple_Octopus" id='octopus' style="width:700px; height:350px;"/>
+                <p>An <a href="https://en.wikipedia.org/wiki/Octopus">Octopus</a> is a soft bodied, eight armed animal, with a soft body and lack of an internal or external skeleton.<br/> They can rapidly alter their shape, appearance, and color, enabling them to squeeze through small gaps.</p>
+            
+    </body>
+</html>
